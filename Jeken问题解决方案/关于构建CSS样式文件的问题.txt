@@ -1,0 +1,7 @@
+打包工具配置说明文档
+ 
+把dir-config.clj附件放到代码  upgrade目录下。
+改动23行
+ 
+; less编译成css后会合并的模块需要启用并配置该规则
+#".+/css/(BT).css"            [#"less/.+\.less"]                                                                                                                     "css/BT.css"
